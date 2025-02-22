@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <main>
+        <form>
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Ali Abdallah" readonly>
+            <br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="amabdallah@m.marywood.edu" readonly>
+            <br>
+
+            <!-- Phone Field -->
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" value="570-229-7766" readonly>
+            <br>
+
+            <!-- Subject Field -->
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="My Contact Information" required>
+            <br>
+
+            <!-- Message Field -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="this is my contact information for any quistions or if you need to reach out to me!" required></textarea>
+            <br>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
